@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <!-- <script type="text/javascript" src="signup.js"></script>  -->
+
+</head>
+<body>
+   
+
+    <nav>
+        <div class="logo">
+            <div class="indigo">Indigolymade</div>
+
+
+
+        </div>
+        <div class="menu">
+            <div class="mu"><a href="index.html">Home</a></div>
+            <div class="mu"><a href="contact.html">contact us</a></div>
+
+            <div class="mu"><a href="signup.html">Create Portfolio</a></div>
+            <div class="mu"><a href="index3.html">Portfolio Demo</a></div>
+
+        </div>
+        <i  onclick="drop()" class="fa-solid fa-bars-staggered bcb" ></i>
+
+    </nav>
+    
+<section class="formi">
+
+    <form class="form20" name="submit-to-google-sheet">
+        <div class="wrap">
+        <div class="placeholder">
+        </div>
+        <input type="text" name="username">
+        </div>
+
+        <div class="wrap">
+
+        <div class="placeholder">
+            Enter Your Business/brand Name 
+        </div>
+        <input type="text" name="businessname">
+        </div>
+        <div class="wrap3">
+            <div class="demo">
+                Write a short bio about your self
+                or brand
+            </div>
+            <div class="demoa">Passionate graphic designer <br> With a keen eye for details  <br>Bringing visions to life  </div>
+
+        <textarea name="bio" class="bio" rows="5" 
+        placeholder=""></textarea>
+
+</div>
+
+<div class="socialmedia">
+    <div class="social">Enter Your Business  Social Handles</div>
+    <div class="demoa"> my whatsap ____<br> my telegram ____ <br>link to my ____ </div>
+    <textarea  rows="6"  name="socialhandle" id="" ></textarea>
+  
+
+</div>
+<div class="skills">
+    <div class="skill">Enter Your Expertise </div>
+        
+    <textarea name="skills" rows="3" placeholder="thumbnail flyer logo design etc"></textarea>
+    
+</div>
+
+<div class="terms">
+    <div class="tms">
+        This data provided would be used
+        to setup your portfolio 
+    </div>
+    <div class="agree">
+        Proceed <input type="checkbox" name="proceed" value="I agree" required>
+    </div>
+   
+</div>
+<div class="email2">
+    <div class="pl">Your portfolio link would be mailed to you</div>
+    <input name="email" type="email"  placeholder="Enter your email " >
+    <input name="number" type="number" placeholder="Enter WhatsApp ">
+</div>
+<div class="card">
+    <div class="sub">Submitted Successfully </div>
+  
+    <div  onclick="oe(1)" class="clk4">Ok</div> 
+    <div class="side">   
+    <div  onclick="oe(2)" class="clk5">Make changes</div>  
+</div>
+</div>
+
+<button class="bitn" type="submit" name="submit">Submit</button>
+
+
+<!-- <input class="tel" type="checkbox" aria-placeholder="pppp"> -->
+
+
+
+
+    </form>
+</section>
+
+
+
+
+<footer>
+    <div class="link">
+        <div class="mail"><a class="" style="color: black;" href="mailto:indigolymadewebdevelopment@gmail.com">Email</a></div>
+
+    <div class="whatsap"><a class="" style="color: black;" href="https://wa.me/08027411562">WhatsApp</a></div>
+
+    </div>
+    <div class="rel">
+    <div class="copyrights">Copyright 2024 Indigolymade Web Development. </div>
+    <div class="copyright">All rights reserved</div>
+    </div>
+   
+   </footer>
+  
+    
+    <script>
+        
+        
+
+let bitn= document.querySelector(".bitn")
+
+let card = document.querySelector(".card")
+let form20 = document.querySelector(".form20")
+
+
+let clk4 = document.getElementsByClassName("clk4");
+        let clk5 = document.getElementsByClassName("clk5");
+
+        function oe (num){
+    switch(num){
+        case 1: 
+        card.classList.remove("card2");
+        form20.classList.add("form205")
+
+        form.reset();
+
+        break;
+        case 2: 
+        card.classList.remove("card2");
+        form20.classList.add("form205")
+
+        break;
+
+
+    }}
+
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwqe-Cf5tepF-89H0a0kOWD8ij2ghdY2IgCQd9C7omx2KDnfRxM2__vZqyQXcl0Oe_zZw/exec'
+const form = document.forms['submit-to-google-sheet']
+// let clk4 = document.getElementsByClassName("clk4")
+// let clk5 = document.getElementsByClassName("clk5")
+form.addEventListener('submit', e => {
+e.preventDefault()
+fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+.then(response => {console.log('Success!', response);
+
+    card.classList.add("card2");
+    form20.classList.add("form205")
+
+   
+})
+  
+
+
+
+
+
+.catch(error => console.error('Error!', error.message))
+})
+
+
+
+
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//     const scriptURL = 'https://script.google.com/macros/s/AKfycbwqe-Cf5tepF-89H0a0kOWD8ij2ghdY2IgCQd9C7omx2KDnfRxM2__vZqyQXcl0Oe_zZw/exec'
+//     const form = document.forms['submit-to-google-sheet']
+    
+//     form.addEventListener('submit', e => {
+//     e.preventDefault()
+//     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+//     .then(response => {console.log('Success!', response);
+//     form.reset();
+// })
+//     .catch(error => console.error('Error!', error.message))
+//     })
+    </script>
+   <script type="text/javascript" src="index2.js"></script> 
+
+   
+    
+</body>
+</html>
+
+<!-- https://script.google.com/macros/s/AKfycbwqe-Cf5tepF-89H0a0kOWD8ij2ghdY2IgCQd9C7omx2KDnfRxM2__vZqyQXcl0Oe_zZw/exec -->

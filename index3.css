@@ -1,0 +1,1350 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 6em;
+    background-color: white;
+    overflow: hidden;
+
+}
+.logo{
+    margin-left: 5px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding-left: 5px;
+}
+.sp1{
+    color: orange;
+}
+.sp2{
+    color: chocolate;
+}
+a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 6em;
+}
+section{
+    display: flex;
+    height: 60vh;
+    width: 100vw;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    justify-content: center;
+
+
+}
+
+.section11{
+    display: flex;
+    justify-content: flex-start;
+    height: 60vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+background-color: black;
+justify-content: center;
+}
+
+.a{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* margin-top: 2em; */
+    height: 300px;
+    width: 400px;
+background-color: rgba(0, 0, 0, 0.4);  
+  padding-left: 3em;
+    border: 1px palegoldenrod solid;
+    overflow: hidden;
+    margin-left: 2em;
+
+
+
+
+}
+.b2{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 1px solid silver;
+    padding-top: 20px;
+    padding-left: 3px;
+}
+.b1{
+    height: 50px;
+    width: 100px;
+    background-color: whitesmoke;
+    color: black;
+    padding-top: 20px;
+
+}
+.b3{
+    height: 50px;
+    width: 300px;
+    background-color: aliceblue;
+    color: black;
+    padding-top: 20px;
+    border-left: 0px black solid;
+
+}
+.bbb{
+    background-color: transparent;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.icon{
+    height: 40px;
+    width: 300px;
+    background-color: burlywood;
+    text-align: right;
+
+}
+
+.profile{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+}
+/* .profile1{
+    height: 70vh;
+    width: 100vw;
+   
+    background-color: white;
+    position: relative;
+} */
+.skill{
+    width: 500px;
+    position:absolute;
+    top: 82%;
+    left: 5%;
+    height: 300px;
+    
+}
+.skill22{
+    top: 120%;
+}
+.skill2{
+    height: 390px;
+    z-index: 0;
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2em;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom-left-radius: 500%;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-in-out;
+    
+
+}
+
+.skill22{
+    animation-name: slid;
+    z-index: 1;
+    border-bottom-left-radius: 500%;
+
+}
+ @keyframes slid{
+    from{
+height: 0px;
+border-bottom-left-radius: 500%;
+
+    }
+    to{
+visibility: visible;
+border-bottom-left-radius: 0;
+
+height: 390px;
+    }
+ }
+
+ .fa-solid ,.fa-xmark {
+    
+
+    color: silver;
+    font-size: 40px;
+ }
+ .x{
+    height: 40px;
+    /* width: 40px; */
+    padding-left: 100px;
+
+}
+.predp{
+    display: flex;
+    height: 60vh;
+    width: 50%;
+}
+.dp1, .box2{
+    width: 660px;
+    height: 60vh;
+    background-color: whitesmoke;
+}
+
+.dp1{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    gap: 2em;
+    width: 660px;
+}
+
+.sidebar{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+
+}
+
+.iccn{
+    color: white;
+    height: 50px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    border: 3px solid silver;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  cursor: pointer;
+}
+.bot{
+    height: 50px;
+    width: 140px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    border: 3px solid silver;
+    text-align: center;
+    padding-top: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+}
+.bot:hover, .iccn:hover{
+background-color: whitesmoke;
+border: 3px gray solid;
+color: black;}
+.bot2{
+    z-index: 0;
+}
+.box2{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+   
+}
+.hotline{
+    height: 50px;
+    width: 300px;
+    background-color:rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: larger;
+}
+
+.box{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    background-image: url(pa.jpg);
+    background-size: cover;
+    border: 1px solid gray;
+    background-repeat: no-repeat;
+}
+
+
+.dpen{
+    display: flex;
+    background-color:transparent;
+    justify-content: space-between;
+    align-items: center;
+    visibility: hidden;
+    height: 40px;
+    width: 500px;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+    animation-timing-function: ease;
+
+}
+.dpen2{
+    animation-name: sliddd;
+ 
+}
+@keyframes sliddd{
+ 
+    from{
+        visibility: hidden;
+    }
+    to{
+visibility: visible;
+    }
+}
+.dependency{
+    height: 40px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    /* padding-left: px; */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: larger;
+
+}
+
+.lists{
+    height: 0px;
+    width: 170px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-in;
+    visibility: hidden;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.lists2{
+    animation-name: slidd;
+
+}
+.aname{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+@keyframes slidd{
+ 
+    from{
+        visibility: hidden;
+        height: 0px;
+    }
+    to{
+visibility: visible;
+height: 300px;
+    }
+}
+
+li{
+    list-style-type: none;
+        color: black;
+        height: 40px;
+        width: 170px;
+        background-color: whitesmoke;
+        border-radius: 3px;
+        /* animation-name: slide; */
+        animation-duration: 0.4s;
+        animation-timing-function: ease-in-out;
+animation-fill-mode: both;
+/* animation-delay: 1s; */
+padding-top: 15px;
+padding-left: 5px;
+font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+
+}
+
+@keyframes slide{
+ 
+from{
+    width: 1px ;
+    color: transparent;
+}
+to{
+    width: 170px;
+    color: black;
+}
+
+
+}
+.links{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-color:rgba(0, 0, 0, 0.8); */
+    padding-top: 4px;
+    border: 1px silver solid;
+}
+
+.link{
+
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    border: 2px black solid;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+
+
+}
+.dp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    gap: 3em;
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.copyright{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.hotline2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+}
+.office{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.aboutme{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    height: 300px;
+    width: 400px;
+    visibility: hidden;
+    /* padding-left: 50px; */
+    padding-top: 60px;
+}
+.aboutme22{
+    top: 125%;
+}
+.aboutme2{
+    visibility: visible;
+}
+
+
+.column{
+    height: 200px;
+    background-color: rgba(0, 0, 0, 13);
+    width: 300px;
+    border: 2px solid white;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.wrap2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+
+
+
+.a2{
+    animation-delay: 0.1s;
+  
+}
+
+
+.b{
+    animation-delay: 0.3s;
+   
+}
+.c{
+    animation-delay: 0.4s;
+ 
+}
+.d{
+    animation-delay: 0.5s;
+  
+}
+
+
+.e{
+    animation-delay: 0.6s;
+}
+.f{
+    animation-delay:0.7s ;
+}
+.g{
+    animation-delay: 0.8s;
+}
+.h{
+    animation-delay:0.9s ;
+}
+.i{
+    animation-delay:1.0s ;
+}
+.j{
+    
+    animation-delay: 1.2s;
+   
+}
+.k{
+   
+    animation-delay:1.3s ;
+   
+}
+.l{
+   
+    animation-delay: 1.4s;
+   
+}
+.m{
+  
+    animation-delay: 1.5s;
+    
+}
+.n{
+   
+    animation-delay: 1.6s;
+   
+}
+.o{
+    
+    animation-delay: 1.7s;
+    
+}
+.p{
+   
+    animation-delay: 1.8s;
+    
+}
+
+.q{
+ 
+    animation-delay:1.9s ;
+   
+}
+.r{
+    
+    animation-delay: 2.0s;
+    
+}
+.s{
+    
+    animation-delay: 2.1s;
+    
+}
+.t{
+   
+    animation-delay: 2.2s;
+  
+}
+.u{
+   
+    animation-delay: 2.3s;
+  
+}
+.v{
+   
+    animation-delay: 2.4s;
+   
+}
+.w{
+   
+    animation-delay: 2.5s;
+  
+}
+.xia{
+   
+    animation-delay: 2.6s;
+  
+}
+.y{
+    
+    animation-delay: 2.7s;
+   
+}
+.z{
+   
+    animation-delay: 2.8s;
+  
+}
+.ai{
+  
+    animation-delay: 2.9s;
+   
+}
+.bi{
+    
+    animation-delay:3.0s ;
+  
+}
+.ci{
+   
+    animation-delay: 3.1s;
+   
+}
+.di{
+   
+    animation-delay: 3.2s;
+   
+}
+.ei{
+   
+    animation-delay: 3.3s;
+   
+}
+.fi{
+    
+    animation-delay: 3.4s;
+    
+}
+
+
+.gi{
+    
+    animation-delay:3.5s ;
+   
+}
+.hi{
+   
+    animation-delay: 3.6s;
+   
+}
+.ii{
+    
+    animation-delay: 3.7s;
+   
+}
+.ji{
+  
+    animation-delay: 3.8s;
+   
+}
+.ki{
+  
+    animation-delay: 3.9s;
+  
+}
+.li{
+   
+    animation-delay: 4.0s;
+   
+}
+.mi{
+   
+    animation-delay:4.1s ;
+   
+}
+.ni{
+   
+    animation-delay: 4.2s;
+   
+}
+.oi{
+   
+    animation-delay:4.3s ;
+  
+}
+.pi{
+   
+    animation-delay: 4.4s;
+   
+}
+.qi{
+   
+    animation-delay: 4.5s;
+   
+}
+.ri{
+    
+    animation-delay: 4.6s;
+  
+}
+.si{
+    
+    animation-delay: 4.7s;
+   
+}
+.ti{
+  
+    animation-delay: 4.8s;
+   
+}
+.ui{
+   
+    animation-delay: 4.9s;
+    
+}
+.vi{
+    
+    animation-delay: 5.0s;
+   
+}
+
+.wi{
+   
+    animation-delay: 5.1s;
+  
+}
+.xi{
+  
+    animation-delay: 5.2s;
+   
+}
+.yi{
+   
+    animation-delay: 5.3s;
+
+}
+.zi{
+   
+    animation-delay: 5.4s;
+  
+}
+.ae{
+    
+    animation-delay: 5.5s;
+  
+}
+.be{
+  
+    animation-delay: 5.6s;
+  
+}
+.ce{
+   
+    animation-delay: 5.7s;
+  
+}
+.de{
+   
+    animation-delay:5.8s ;
+   
+}
+.ee{
+   
+    animation-delay: 5.9s;
+  
+}
+.fe{
+   
+    animation-delay: 6.0s;
+  
+}
+.ge{
+  
+    animation-delay: 6.1s;
+   
+}
+.he{
+   
+    animation-delay: 6.2s;
+  
+}
+.ie{
+    
+    animation-delay:6.3s ;
+   
+}
+.je{
+   
+    animation-delay:6.4s ;
+ 
+}
+.ke{
+    
+    animation-delay: 6.5s;
+    
+}
+.le{
+   
+    animation-delay: 6.6s;
+   
+    
+}
+
+.me{
+    
+    animation-delay: 6.7s;
+   
+}
+.ne{
+   
+    animation-delay: 6.8s;
+}
+   
+.oe{
+   
+    animation-delay: 6.9s;
+  
+}
+.pe{
+   
+    animation-delay: 7.0s;
+    
+}
+.qe{
+   
+    animation-delay: 7.1s;
+   
+}
+.re{
+    
+    animation-delay: 7.2s;
+  
+}
+.se{
+   
+    animation-delay: 7.3s;
+   
+}
+.te{
+   
+    animation-delay:7.4s ;
+   
+}
+.ue{
+   
+    animation-delay: 7.5s;
+   
+}
+.ve{
+  
+    animation-delay: 7.6s;
+   
+}
+.we{
+    
+    animation-delay:7.7s ;
+  
+}
+.xe{
+   
+    animation-delay: 7.8s;
+    
+}
+.ye{
+   
+    animation-delay:7.9s ;
+   
+}
+.ze{
+    
+    animation-delay: 8.0s;
+   
+}
+.ac{
+   
+    animation-delay:8.1s ;
+   
+}
+.bc{
+    
+    animation-delay:8.2s ;
+    
+}
+.cc{
+   
+    animation-delay: 8.3s;
+    
+}
+.dc{
+   
+    animation-delay:8.4s ;
+  
+}
+.ec{
+   
+    animation-delay: 8.5s;
+ 
+}
+.fc{
+    animation-delay: 8.6s;
+  
+}
+.gc{
+   
+    animation-delay: 8.7s;
+   
+}
+.hc{
+   
+    animation-delay: 8.8s;
+   
+}
+
+.ic{
+    
+    animation-delay: 8.9s;
+   
+}
+.jc{
+   
+    animation-delay: 9.0s;
+    
+}
+.kc{
+   
+    animation-delay: 9.1s;
+   
+}
+.lc{
+   
+    animation-delay: 9.2s;
+   
+}
+.mc{
+  
+    animation-delay: 9.3s;
+   
+}
+.nc{
+   
+    animation-delay: 9.4s;
+   
+}
+.oc{
+    
+    animation-delay:9.5s ;
+   
+}
+.pc{
+  
+    animation-delay: 9.6s;
+   
+}
+.qc{
+   
+    animation-delay: 9.7s;
+    
+}
+.rc{
+    
+    animation-delay: 9.8s;
+   
+}
+.sc{
+  
+    animation-delay: 9.9s;
+   
+}
+.aname{
+    color: transparent;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
+}
+.aname2{
+    animation-name: type;
+
+}
+.staggered, .staggered2{
+    visibility: hidden;
+    position: absolute;
+}
+@keyframes type{
+    form {
+        color: transparent;
+    }
+    to{
+        color: white;
+    }
+}
+@media screen and (max-width:1322px) { 
+    .profile{
+        height: 120vh;
+      
+    }
+
+    }
+    @media screen and (max-width:534px) { 
+        /* .skill, .skill2{
+            height: 390px;
+            width: 400px;
+          
+            background-color: orangered;
+            
+        } */
+ 
+        .skill{
+            width: 400px;
+
+            background-color: transparent;
+        }  
+
+
+        
+.skill2{
+    height: 390px;
+    z-index: 0;
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2em;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom-left-radius: 500%;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-in-out;
+    
+
+}
+
+.skill22{
+    animation-name: slid;
+    z-index: 1;
+    border-bottom-left-radius: 500%;
+
+}
+ @keyframes slid{
+    from{
+height: 0px;
+border-bottom-left-radius: 500%;
+
+    }
+    to{
+visibility: visible;
+border-bottom-left-radius: 0;
+
+height: 390px;
+    }
+ }
+        .dpen{
+           
+            width: 400px;
+          
+        
+        }
+    
+
+        .aboutme{
+            width: 350px;
+            padding-left: 26px;
+        }
+        }
+      
+        @media screen and (max-width:591px) { 
+           
+            .logo22{
+                padding-bottom: 200px;
+
+            }
+          .staggered , .staggered2{
+            visibility: visible;
+            position: absolute;
+            right: 40px;
+            top: 14px;
+          }
+          header {
+            height: 6em;
+            gap: 2px;
+            justify-content: flex-start;
+            animation-duration: 0.5s;
+            animation-fill-mode: forwards;
+            animation-delay: 0.1s;
+          }
+          .header22{
+            animation-name: dropslowly;
+
+          }
+          @keyframes dropslowly {
+            from{
+                height: 6em;
+            }
+            to{
+                height: 26em;
+            }
+          }
+          .menu{
+            visibility: hidden;
+            height: 20em;
+            width: 70%;
+            flex-direction: column;
+            /* animation-name: slidin; */
+            animation-delay: 0.1s;
+            animation-duration: 0.6s;
+            animation-fill-mode:forwards ;
+            align-items: center;
+            /* background-color: brown; */
+
+          }
+          .menu22{
+            animation-name: slidin;
+          }
+          .menuchd{
+            visibility: hidden;
+            animation-delay: 0.4s;
+            animation-duration: 0.1s;
+            /* animation-name: hiden; */
+            animation-fill-mode: forwards;
+          }
+          .menuchd22{
+            animation-name: hiden;
+          }
+          @keyframes hiden {
+            from{
+                visibility: hidden;
+            }
+            to{
+                visibility: visible;
+            }
+            
+          }
+
+          @keyframes slidin {
+            from{
+                width: 0%;
+            }
+            to{
+                visibility: visible;
+                width: 50%;
+            }
+            
+          }
+        
+            }
+
+            @media screen and (max-width:422px) { 
+               
+         .box2{
+            width: 400px;
+         }
+
+                .skill{
+                    width: 340px;
+        
+                }  
+                .skill2{
+                    width: 340px;
+                }
+
+                .dpen{
+                  
+                    /* width: 500px; */
+                    width: 300px;
+                   
+                
+                }
+                .dependency{
+                    width: 300px;
+                }
+            }
+
+
+            @media screen and (max-width:422px) { 
+               .links{
+                height: 170px;
+                flex-direction: column;
+                align-items: center;
+                gap: 1em;
+               }
+         .box2{
+            width: 350px;
+         }
+         .aboutme{
+            width: 300px;
+            padding-left: 5px;
+         }
+         .column{
+            width: 290px;
+         }
+
+                
+                
+            }
+            
+            @media screen and (max-width:380px) { 
+                .skill, .skill2{
+                    width: 320px;
+                }
+                 .links{
+                    width: 250px;
+                 }
+                 
+             }
+             @media screen and (max-width:338px) { 
+                .skill, .skill2{
+                    width: 300px;
+                }
+                
+             }
+             @media screen and (max-width:335px) { 
+              
+             .aboutme{
+                width: 260px;
+                padding-left: 0px;
+             }
+             .column{
+                width: 260px;
+             }
+             .skill, .skill2{
+                width: 290px;
+            }
+            .box2{
+                width: 290px;
+             }
+             .dp1{
+
+             }
+             }
+
+
+             @media screen and (max-width:425px) { 
+                .box2{
+                    width:410px;
+                 }
+
+            
+                }
+
+                @media screen and (max-width:459px) { 
+                    .a{
+                        width:350px;
+                    margin-left: 0px;
+                     }
+                     section{
+                        align-items: center;
+                     }
+                     
+    
+                
+                    }
+
+
+
+
+         @media screen and (max-width:377px) { 
+                    .a{
+                        width:300px;
+                    margin-left: 0px;
+                     }
+                  
+                     
+    
+                
+                    }
+/* 
+                    .skill{
+                     
+                        background-color: blue;
+                        
+                    }
+                    .skill2{
+                    
+                        background-color: red;
+                        
+                    
+                    } */

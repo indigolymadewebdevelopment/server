@@ -1,0 +1,732 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7em;
+    width: 100vw;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      
+}
+
+.fa-solid, .fa-bars-staggered{
+    visibility: hidden;
+    position: absolute;
+    top: 4%;
+    right: 20px;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+}
+.logo{
+    margin-left: 3em;
+   color: black;
+   height: 100px;
+   
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  
+   
+
+}
+.indigo{
+    padding-top: 2em;
+    color: black;
+}
+.logo2{
+    height: 200px;
+}
+
+.menu{
+    display: flex;
+    height: 6em;
+    width: 50%;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+
+}
+header {
+   
+    gap: 4em;
+
+}
+.heade{
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.6);  
+
+/* border-left: 2px solid purple; */
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+overflow: hidden;
+
+}
+
+
+header, .posts{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+
+}
+.posts{
+    height: 50vh;
+}
+header{
+    flex-direction: column;
+    background-color: indigo;
+    overflow: hidden;
+
+}
+.animatecard1{
+    background-color: indigo;
+    height: 100vh;
+    width: 400px;
+    position: absolute;
+z-index: 4;
+/* border: 2px solid white; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+animation-name: indes;
+animation-delay: 4s;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+animation-timing-function: ease-in;
+
+
+    
+}
+
+/* 
+@keyframes indes{
+    from{
+        visibility: visible;
+    }
+
+    to{
+    visibility: hidden;
+    }
+
+
+} */
+
+
+
+
+
+
+.anic211{
+   
+    height: 90vh;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.anic21{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    height: 90vh;
+    width: 350px;
+    border: 2px black solid;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+
+.ht{
+    height: 50vh;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    animation-name: moveup;
+    animation-duration: 0.3s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+    color: white;
+
+
+}
+
+@keyframes moveup{
+form {
+    height: 50vh;
+
+}
+to{
+    height: 20vh;
+}
+}
+/* 
+.ht22{
+    animation-name: moveup2;
+    animation-delay: 7s;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+
+
+} */
+
+@keyframes moveup2{
+    form {
+        height: 20vh;
+    
+    }
+    to{
+        height: 5vh;
+    }
+    }
+
+.ht2{
+    height: 50vh;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+.hey{
+    animation-name: appear;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-fill-mode:both ;
+    visibility: visible;
+    animation-timing-function: ease-out;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 200%;
+}
+.wel{
+    height: 40px;
+    width: 300px;
+    color: transparent;
+    text-align: center;
+    animation-name: appear;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-fill-mode:both ;
+    visibility: visible;
+    animation-timing-function: ease-out;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 200%;
+}
+@keyframes appear{
+    form {
+        color: transparent;
+        visibility: visible;
+    
+    }
+to{
+        color: white;
+        visibility: hidden;
+    }
+    
+    }
+    .list2{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 86%;
+        left: 43%;
+        z-index: 5;
+        color: white;
+        visibility: hidden;
+        animation-name: visible;
+        animation-delay: 6s;
+    animation-duration: 4s;
+    animation-fill-mode:forwards ;
+    animation-timing-function: ease-in;
+    background-color: transparent;
+
+
+    }
+.aboutusb{
+    text-align: center;
+     font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: larger;
+}
+.aboutusb2{
+margin-top: 6px;
+list-style-type: none;
+ font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+}
+.benefits{
+    text-align: center;
+     font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: larger;
+}
+.benefits2{
+    margin-top: 6px;
+    list-style-type: square;
+     font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.blocks2{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 95%;
+    left: 0%;
+    animation-name: blocky; 
+    animation-fill-mode: forwards;  
+    animation-delay: 6s;
+    animation-duration: 0.4s;
+    background-color: black;
+    
+
+}
+.blocks{
+    width: 200px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0%;
+    left: 0%; 
+    animation-name: blocky; 
+    animation-fill-mode: forwards;  
+    animation-delay: 6s;
+    animation-duration: 0.4s;
+    background-color: black;
+
+
+}
+
+@keyframes blocky{
+ from{
+    width: 200px;
+ }
+ to{
+    width: 0px;
+ }
+}
+
+
+    .list{
+        width: 200px;
+        height: 200px;
+        /* background-color: cadetblue; */
+        position: absolute;
+        top: 20%;
+        left: 43%;
+        z-index: 5;
+        background-color: transparent;
+        color: white;
+        visibility: hidden;
+        animation-name: visible;
+        animation-delay: 6s;
+    animation-duration: 4s;
+    animation-fill-mode:forwards ;
+    animation-timing-function: ease-in;
+    padding-top: 40px;
+
+
+    }
+    @keyframes visible {
+        form {
+            visibility: hidden;
+        }
+        to{
+            visibility: visible;
+        }
+    }
+
+
+   
+
+@keyframes block2a {
+    from {
+        color: transparent;
+
+        
+    }
+    to{
+        color:black ;
+    }
+}
+
+
+@keyframes block2 {
+    from {
+        width: 0px ;
+
+        
+    }
+    to{
+        width: 270px;
+        color:black ;
+    }
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.hirin{
+    height: 5em;
+    width: 90vw;
+text-align: center;
+ font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding-top: 30px;
+  font-size: larger;
+
+
+}
+.posts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+    flex-wrap: wrap;
+
+}
+.wrap1{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post{
+    height: 50px;
+    width: 400px;
+    background-color: black;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: antiquewhite;
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.applyhere{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: larger;
+}
+.apply{
+    width: 100vw;
+    height: 40vh;
+    overflow: hidden;
+    
+  
+}
+.apply, .form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form1{
+    height: 30vh;
+    width: 300px;
+    gap: 6px;
+    overflow: hidden;
+
+}
+.input1, .input2{
+    width: 300px;
+    height: 2em;
+}
+.btn1{
+    width: 100px;
+    height: 40px;
+    background-color: purple;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: white;
+    border: 1px solid indigo;
+}
+
+.contactform{
+    height: 60vh;
+    width: 100vw;
+    background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+
+}
+.inquiry{
+    color: white;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 2em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: larger;
+}
+.formbox{
+    height: 40vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: whitesmoke;
+gap: 18px;}
+.textarea1{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8em;
+    width: 100vw;
+    background-color: aliceblue;
+    overflow: hidden;
+    color: black;
+}
+
+.copyrights, .copyright, .mail, .whatsap, .mml{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+
+    font-style: normal;}
+
+
+@media screen and (max-width:800px) { 
+ .secb{
+    height: 120vh;
+ }
+   .posts{
+height: 100vh;
+   }
+   .wrap1{
+    width: 100vw;
+   }
+}
+
+@media screen and (max-width:409px) { 
+ .post{
+width: 200px;
+ }
+  
+}
+
+
+   @media screen and (max-width:1241px) { 
+    .lst{
+        left: 39%;
+    }
+     
+   }
+
+   
+@media screen and (max-width:775px) { 
+    .lst{
+        left: 34%;
+    }
+     
+   }
+   @media screen and (max-width:552px) { 
+    .lst{
+        left: 29%;
+    }
+     
+   }
+
+   @media screen and (max-width:436px) { 
+    .lst{
+        left: 26%;
+    }
+     
+   }
+
+   
+   @media screen and (max-width:620px) { 
+    .formbox{
+        width:70% ;
+    }
+     
+   }
+    @media screen and (max-width:460px) { 
+    .formbox{
+        width:90% ;
+    }
+     
+   }
+    @media screen and (max-width:448px) { 
+    .formbox{
+        width:100% ;
+    }
+     
+   }
+
+    @media screen and (max-width:452px) { 
+    .formbox{
+        width:100% ;
+    }
+    .input2, .textarea1{
+        width: 260px;
+    }
+     
+   }
+
+
+   @media screen and (max-width:800px) { 
+    .fa-solid, .fa-bars-staggered{
+        visibility: visible;
+        
+       
+    }
+    a{
+        color: white;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        height: 14em;
+        width: 50%;
+        background-color: black;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+        visibility: hidden;
+
+    
+    }
+    .logo, .indigo{
+        color: white;
+    }
+
+    .menu2{
+        visibility: visible;
+    }
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    animation-delay: 0;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    height: 7em;
+
+    background-color: black;
+}
+.nav2{
+    animation-name: droping;
+
+}
+@keyframes droping {
+    from{
+        height:7em ;
+    }
+    to{
+        height: 24em;
+    }
+}
+
+.lista{
+top: 60%;
+}
+.list2a{
+    position: absolute;
+    top: 120%;
+
+}
+
+   }
+   @media screen and (max-width:403px) { 
+    .animatecard1{
+        width: 300px;
+     
+    
+    
+        
+    }}
+    @media screen and (max-width:355px) { 
+        .anic211{
+   
+            height: 90vh;
+            width: 300px;
+            background-color: rgba(0, 0, 0, 0.6);
+        }}
+
+        @media screen and (max-width:355px) { 
+            .ht, .ht2{
+       
+                width: 300px;
+            }}
