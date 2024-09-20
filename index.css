@@ -556,6 +556,13 @@ footer{
     background-color: aliceblue;
     overflow: hidden;
     color: black;
+    gap: 2em;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 4em;
 }
 
 .copyrights, .copyright, .mail, .whatsap, .mml{

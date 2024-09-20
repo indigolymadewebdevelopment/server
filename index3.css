@@ -94,7 +94,7 @@ background-color: rgba(0, 0, 0, 0.4);
     color: white;
     border: 1px solid silver;
     padding-top: 20px;
-    padding-left: 3px;
+    padding-left: 12px;
 }
 .b1{
     height: 50px;
@@ -501,6 +501,7 @@ footer{
     font-weight: 300;
     font-style: normal;
     display: flex;
+    padding-left: 7px;
 }
 .office{
     font-family: "Montserrat", sans-serif;
@@ -1296,9 +1297,7 @@ height: 390px;
             .box2{
                 width: 290px;
              }
-             .dp1{
-
-             }
+            
              }
 
 
@@ -1329,8 +1328,10 @@ height: 390px;
          @media screen and (max-width:377px) { 
                     .a{
                         width:300px;
-                    margin-left: 0px;
+                    margin-right: 0px;
+                    padding: 12px;
                      }
+                   
                   
                      
     
