@@ -3,6 +3,7 @@ const form3 = document.forms['submit-to-google-sheet']
 form3.addEventListener('submit', e => {
 e.preventDefault()
 fetch(scriptUR, { method: 'POST', body: new FormData(form3)})
-.then(response => console.log('Success!', response))
+.then(response => alert("Sent successfully"))
+.then(form3.reset())
 .catch(error => console.error('Error!', error.message))
 })
