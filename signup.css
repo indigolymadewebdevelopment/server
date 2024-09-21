@@ -47,6 +47,10 @@ font-style: normal;
     font-weight: 300;
     font-style: normal;
 }
+.pl{
+    text-align: center;
+    font-size: small;
+}
 .demoa{
     font-size: 70%;
 
