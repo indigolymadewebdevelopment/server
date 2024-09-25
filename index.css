@@ -78,6 +78,8 @@ justify-content: center;
 align-items: center;
 color: white;
 overflow: hidden;
+width: 100vw;
+background-color: indigo;
 
 }
 
@@ -116,6 +118,9 @@ animation-delay: 4s;
 animation-duration: 3s;
 animation-fill-mode: forwards;
 animation-timing-function: ease-in;
+background-color: rgba(0, 0, 0, 0.6);
+width: 100vw;
+
 
 
     
@@ -135,7 +140,9 @@ animation-timing-function: ease-in;
 } */
 
 
-
+.secb, .apply{
+    background-color: white;
+}
 
 
 
@@ -144,6 +151,11 @@ animation-timing-function: ease-in;
     height: 90vh;
     width: 350px;
     background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .anic21{
 
@@ -247,6 +259,7 @@ to{
   font-style: normal;
   font-size: 200%;
 }
+
 @keyframes appear{
     form {
         color: transparent;
@@ -259,40 +272,36 @@ to{
     }
     
     }
-    .list2{
-        width: 200px;
-        height: 200px;
-        position: absolute;
-        top: 86%;
-        left: 43%;
-        z-index: 5;
-        color: white;
-        visibility: hidden;
-        animation-name: visible;
-        animation-delay: 6s;
-    animation-duration: 4s;
-    animation-fill-mode:forwards ;
-    animation-timing-function: ease-in;
-    background-color: transparent;
 
+    
 
-    }
 .aboutusb{
     text-align: center;
      font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-size: larger;
+  font-size: 30px;
 }
 .aboutusb2{
-margin-top: 6px;
+margin-top: 20px;
 list-style-type: none;
  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  height: 140px;
+  width: 200px;
+  font-size: 27px;
 
+
+}
+.read{
+    height: 500px;
+    width: 250px;
+    background-color: brown;
+    top: 50%;
+    left: 5%;
 }
 .benefits{
     text-align: center;
@@ -310,41 +319,33 @@ list-style-type: none;
   font-weight: 300;
   font-style: normal;
 }
-.blocks2{
-    width: 200px;
-    height: 300px;
-    position: absolute;
-    top: 95%;
-    left: 0%;
-    animation-name: blocky; 
-    animation-fill-mode: forwards;  
-    animation-delay: 6s;
-    animation-duration: 0.4s;
-    background-color: black;
-    
 
-}
 .blocks{
     width: 200px;
     height: 300px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
     position: absolute;
-    top: 0%;
-    left: 0%; 
+    top: 50%;
+    left: 43%; 
     animation-name: blocky; 
     animation-fill-mode: forwards;  
     animation-delay: 6s;
     animation-duration: 0.4s;
-    background-color: black;
 
 
+}
+.blocksx2{
+    top: 83%;
+    left: 25%;
 }
 
 @keyframes blocky{
  from{
+    background-color: rgba(0, 0, 0, 0.6);
     width: 200px;
  }
  to{
+    
     width: 0px;
  }
 }
@@ -367,6 +368,7 @@ list-style-type: none;
     animation-fill-mode:forwards ;
     animation-timing-function: ease-in;
     padding-top: 40px;
+    top: 50%;
 
 
     }
@@ -707,18 +709,16 @@ nav{
 }
 
 .lista{
-top: 60%;
+top: 80%;
 }
-.list2a{
-    position: absolute;
-    top: 120%;
 
-}
 
    }
+   
    @media screen and (max-width:403px) { 
     .animatecard1{
-        width: 300px;
+        width: 100vw;
+
      
     
     
