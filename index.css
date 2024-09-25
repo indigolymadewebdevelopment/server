@@ -652,9 +652,9 @@ width: 200px;
     }
      
    }
+   
 
-
-   @media screen and (max-width:800px) { 
+   @media screen and (max-width:1115px) { 
     .fa-solid, .fa-bars-staggered{
         visibility: visible;
         
