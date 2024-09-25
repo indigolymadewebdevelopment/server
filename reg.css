@@ -77,7 +77,7 @@
     font-size: larger;
 
 }
-.country, select{
+.country , .ctn, select{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -95,10 +95,12 @@
 
 
 }
+
+
 .headline{
     padding-bottom: 9px;
 }
-.country{
+.country, .ctn{
     padding-bottom: 9px;
 }
 select{

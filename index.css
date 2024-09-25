@@ -658,11 +658,14 @@ width: 200px;
     .fa-solid, .fa-bars-staggered{
         visibility: visible;
         
+        
        
     }
-    a{
+    a {
         color: white;
+        text-decoration: underline black;
     }
+    
     .menu{
         display: flex;
         flex-direction: column;

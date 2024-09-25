@@ -41,7 +41,7 @@ rel="stylesheet">
 
             <div class="mu"><a href="signup.html">Create Portfolio</a></div>
             <div class="mu"><a href="portfolio.html">Portfolio Demo</a></div>
-            <div class="mu"><a style="text-decoration: underline black;" href="reg.html">Coding Class</a></div>
+            <div class="mu"><a style="text-decoration: underline white;" href="reg.html">Coding Class</a></div>
 
         </div>
         <i  onclick="drop()" class="fa-solid fa-bars-staggered bcb" ></i>
@@ -57,12 +57,12 @@ rel="stylesheet">
     <div class="reginput1">
     <input class="reginput" name="name" type="text" placeholder="Enter Name" required>
     <input class="reginput" name="email" type="email" placeholder="Enter Email" required>
-    <input class="reginput" name="whatsapp" type="number" placeholder="Enter whatsApp ">
+    <input  class="reginput" name="whatsapp" type="number" placeholder="Enter WhatsApp no. ">
     </div>
 
     <div class="sex2">
         <div class="technologies">
-            Front end technologies 
+            Select Front-end Technologies 
         </div>
         <div class="tech1">
          <div class="html">HTML</div>
@@ -93,23 +93,21 @@ rel="stylesheet">
 
     </div>
 
-    <div class="sex">
-        <div class="gender">Gender</div>
-        <div class="sex1">
-         <div class="male">Male</div>
-        <input type="checkbox" name="male" value="male">
-    </div>
+         <div class="join">
+        <div class="ctn gender">Select Your Gender</div>
+
+        <select class="selectgen" name="gender" id="">
+
+
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+         </div>
        
+    <div class="join">
 
-        <div class="sex1">
-             <div class="female">Female</div>
-            <input type="checkbox" name="female" value="female">
-
-        </div>
-
-    </div>
-    <div class="country">Select your country</div>
-    <select name="country" id="" required>
+    <div class="country">Select Your Country</div>
+    <select name="countries" required>
         <option  value="algeria">Algeria</option>
         <option value="angola">Angola</option>
         <option value="benin">Benin</option>
@@ -134,7 +132,7 @@ rel="stylesheet">
         <option value="malawi">Malawi</option>
         <option value="mali">Mali</option>
         <option value="mauritania">Mauritania</option>
-        <option value="">Mauritius</option>
+        <option value="mauritius">Mauritius</option>
         <option value="morocco">Morocco</option>
         <option value="mozambique">Mozambique</option>
         <option value="namibia">Namibia</option>
@@ -159,6 +157,7 @@ rel="stylesheet">
         
 
     </select>
+    </div>
     <button>Submit</button>
 </form>
 </div>
@@ -178,12 +177,8 @@ rel="stylesheet">
    </footer>
 
     <script type="text/javascript" src="index2.js"></script> 
-    <!-- <form name="submit-to-google-sheet">
-        <input name="email" type="email" placeholder="Email" required>
-        <button type="submit">Send</button>
-        </form> -->
+ 
         <script type="text/javascript" src="reg.js"></script> 
 
-    <!-- https://script.google.com/macros/s/AKfycbzZqm_40fZuT6Fgaevc5Uxj4F_zmTFqXg4zimyf3wIC3YPMRTN6ldLlPtXr_mrAAlur/exec -->
 </body>
 </html>
