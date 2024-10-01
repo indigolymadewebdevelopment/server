@@ -27,6 +27,7 @@ form{
     height: 180vh;
     width: 400px;
     background-color: rgba(0, 0, 0, 0.6);  
+    border-radius: 6px;
 }
 .form205{
     height: 205vh;
@@ -160,7 +161,7 @@ padding: 5px;
         background-color: rgba(0, 0, 0, 0.3); 
 
 }
-textarea{
+textarea, .iem{
     height: 2em;
 }
 

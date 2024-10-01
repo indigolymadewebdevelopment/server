@@ -9,7 +9,7 @@ const form = document.forms['submittogooglesheet']
 form.addEventListener('submit', e => {
 e.preventDefault()
 fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-.then(response => alert("Sent successfully"))
+.then(response => alert("Sent successfully. We appreciate your interest; however, we are no longer accepting applications. However, we will retain your information for future consideration.Thank you "))
 .then(form.reset())
 
 .catch(error => console.error('Error!', error.message))

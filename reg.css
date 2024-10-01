@@ -35,10 +35,12 @@
 
 }
 .reginput{
-    height: 2em;
+    height: 40px;
     width: 190px;
+
     
 }
+
 
 .tech1, .sex1, .sex2{
     display: flex;
@@ -148,7 +150,11 @@ button:hover{
     border: 1px solid white;
 
 }
+
 .reginput{
-    text-align: center;
+    text-align: start;
+    padding-left: 2em;
+   
 }
+
 
